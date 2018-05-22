@@ -1,12 +1,12 @@
-legend
+label
 {
+    display:block;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: bold;
-
-
 }
-span
+
+sup
 {
     color: red;
     font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ span
     margin-top: 5px;
     height: 30px;
     color: white;
-    
+
 
 
 }
@@ -42,4 +42,44 @@ select
     margin-bottom: 10px;
     width: 362px;
     height: 30px;
+}
+
+/* Fin premier Formulaire */
+
+.Infos
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.inline
+{
+    width: 110px;
+     display:block;
+     vertical-align: top;
+     margin: 15px;
+}
+
+#Sub
+{
+    background-color: #DAA520;
+}
+
+form
+{
+width: 450px;
+margin: auto;
+}
+
+fieldset
+{
+    margin: 1%;
+}
+
+.tel
+{
+    width: 20px;
 }

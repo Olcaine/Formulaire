@@ -1,42 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
 <title>Formulaire</title>
 <link rel="stylesheet" href="Formulaire.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <head>
-        <meta charset="utf-8">
-        <form action="." method="post">
-            <legend>Full Name <span>*</span></legend>
-            <input type="text" name="fname" placeholder="First" />
-            <input type="text" name="lname" placeholder="Last" />
 
-            <legend>Email <span>*</span></legend>
-            <input class="email" type="email" />
+</head>
 
-            <legend>Subject</legend>
-            <select>
+    <body>
+
+    <form action="." method="post">
+        <label>Full Name <sup>*</sup></label>
+        <input type="text" name="fname" placeholder="First" />
+        <input type="text" name="lname" placeholder="Last" />
+
+        <label>Email <sup>*</sup></label>
+        <input class="email" type="email" />
+
+        <label>Subject</label>
+        <select>
                 <optgroup label="Advertise">
                     <option>Advertise</option>
                     <option>Option 2</option>
                 </optgroup>
-                </option>
             </select>
 
-            <legend>Your Message <span>*</span></legend>
-            <textarea name="Message" rows="10" cols="50"></textarea>
-
-            <legend></legend>
-            <input class="Submit" type="submit" value="Submit" />
+        <label>Your Message <sup>*</sup></label>
+        <textarea name="Message" rows="10" cols="50"></textarea>
 
 
-<hr></hr>
+        <label for="Submit"></label> <input id="Submit" class="Submit" type="submit" value="Submit" />
 
 
-    </head>
-    <body>
+        <hr>
+
+</form>
+
+
+        <form action="" method="post">
+            <fieldset>
+                <legend class="Infos">Provide your information</legend>
+
+                <label class="inline">Name <sup>*</sup></label><input type="text"/>
+
+
+                <label class="inline">Email <sup>*</sup></label><input type="text"/>
+
+
+                <label>Telephone</label>
+                <input class="tel" type="number"/>-
+                <input class="tel" type="number"/>-
+                <input class="tel" type="number"/>
+
+                <label class="inline">Regarding</label>
+                <select>
+                        <optgroup label="General">
+                            <option>General</option>
+                            <option>Option 2</option>
+                        </optgroup>
+                    </select>
+
+                <label class="inline">Message <sup>*</sup></label>
+                    <textarea name="Message" rows="10" cols="50"></textarea>
+
+                    <label for="Submit"></label> <input id="Sub" class="Submit" type="submit" value="Submit" />
+            </fieldset>
 
 
 
-    </form>
-    </body>
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+</body>
+
 </html>
