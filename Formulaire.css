@@ -1,0 +1,45 @@
+legend
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+
+}
+span
+{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Submit
+{
+    background-color: #008B8B;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 30px;
+    color: white;
+    
+
+
+}
+
+.email
+{
+width: 362px;
+height: 30px;
+}
+
+input
+{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+select
+{
+    margin-bottom: 10px;
+    width: 362px;
+    height: 30px;
+}
