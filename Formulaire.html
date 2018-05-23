@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
     <meta charset="utf-8">
-<title>Formulaire</title>
-<link rel="stylesheet" href="Formulaire.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Formulaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 
-    <body>
+<body>
 
     <form action="." method="post">
         <label>Full Name <sup>*</sup></label>
@@ -34,51 +36,54 @@
 
 
         <hr>
+    </form>
 
-</form>
+    <!-- Fin du premier formulaire -->
+
+    <form action="" method="post">
+
+        <legend class="Infos">Provide your information</legend>
+        <fieldset>
+            <label class="inline">Name <sup>*</sup></label>
+            <input type="text" />
+        </fieldset>
 
 
-        <form action="" method="post">
-            <fieldset>
-                <legend class="Infos">Provide your information</legend>
+        <fieldset>
+            <label class="inline">Email <sup>*</sup></label>
+            <input type="text" />
+        </fieldset>
 
-                <label class="inline">Name <sup>*</sup></label><input type="text"/>
+        <fieldset>
+            <label class="tel">Telephone</label>
+            <input class="tel" type="number" />-
+            <input class="tel" type="number" />-
+            <input class="tel" type="number" />
+        </fieldset>
 
 
-                <label class="inline">Email <sup>*</sup></label><input type="text"/>
-
-
-                <label>Telephone</label>
-                <input class="tel" type="number"/>-
-                <input class="tel" type="number"/>-
-                <input class="tel" type="number"/>
-
-                <label class="inline">Regarding</label>
-                <select>
-                        <optgroup label="General">
+        <fieldset>
+            <label class="regarding">Regarding</label>
+            <select>
+                        <optgroup class="regarding" label="General">
                             <option>General</option>
                             <option>Option 2</option>
                         </optgroup>
                     </select>
+        </fieldset>
 
-                <label class="inline">Message <sup>*</sup></label>
-                    <textarea name="Message" rows="10" cols="50"></textarea>
+        <fieldset>
+            <label class="inline">Message <sup>*</sup></label>
+            <textarea name="Message" rows="10" cols="50"></textarea>
 
-                    <label for="Submit"></label> <input id="Sub" class="Submit" type="submit" value="Submit" />
-            </fieldset>
+        </fieldset>
 
+        <label for="Submit"></label> <input id="Sub" class="Submit" type="submit" value="Submit" />
 
+    </form>
 
+    <!-- Fin du deuxieme formulaire. A revoir, il a des soucis -->
 
-
-
-
-
-
-
-
-
-        </form>
 
 
 

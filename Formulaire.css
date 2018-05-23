@@ -4,6 +4,7 @@ label
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: bold;
+
 }
 
 sup
@@ -57,10 +58,11 @@ select
 
 .inline
 {
-    width: 110px;
-     display:block;
-     vertical-align: top;
-     margin: 15px;
+
+     display:inline-block;
+     margin: 1em;
+     text-align: bottom;
+
 }
 
 #Sub
@@ -70,16 +72,27 @@ select
 
 form
 {
-width: 450px;
-margin: auto;
+margin-left: 1px;
+
 }
 
 fieldset
 {
     margin: 1%;
+
 }
 
 .tel
 {
-    width: 20px;
+    width: 60px;
+    display: inline-block;
+
+}
+
+.regarding
+{
+
+    display: inline-block;
+    text-align: left;
+    
 }
